@@ -7,9 +7,9 @@ const clienteController = require('../controller/clientecontroller');
 
 
 // Ruta para registrar un nuevo cliente
-router.post('/', clienteController.registrarCliente);
+router.post('/registro', clienteController.registrarCliente);
 
 // Ruta para obtener todos los clientes
-router.get('/', clienteController.verclientes);
+router.get('/', clienteController.verClientes);
 
 module.exports = router;
